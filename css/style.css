@@ -74,3 +74,26 @@ a:link {
 a:visited {
     color: black;
 }
+.background {
+    background-color: #2626b6;
+    opacity: 0.7;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );
+    color:rgb(232, 226, 226);
+    background-position: top left;
+    background-blend-mode:difference;
+}
+.animation {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%
+    }
+}
