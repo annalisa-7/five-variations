@@ -49,3 +49,28 @@ h2 {
     border: 2px solid red;
     background-color: coral;
 }
+div {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    rotate: 30deg;
+}
+.rotate {
+    position: absolute;
+    transform: rotate(50deg);
+    background-color: black;
+    color: red;
+}
+.bone {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px #FF0000;
+}
+a:hover {
+    background-color: cornflowerblue;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
