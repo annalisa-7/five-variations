@@ -85,6 +85,8 @@ a:visited {
 .animation {
     animation-duration: 3s;
     animation-name: slidein;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
 }
 @keyframes slidein {
     from {
@@ -95,5 +97,18 @@ a:visited {
     to {
         margin-left: 0%;
         width: 100%
+    }
+}
+.animation2 {
+    animation-duration: 3s;
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+}
+@keyframes animation2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
